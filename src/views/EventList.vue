@@ -2,7 +2,7 @@
   <div>
     <h1>Event Listing</h1>
 
-    <event-card />
+    <EventCard />
   </div>
 </template>
 
