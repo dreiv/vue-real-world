@@ -1,7 +1,7 @@
 <template>
   <router-link
     class="event-link"
-    :to="{ name: 'event-show', params: { id: '1' } }"
+    :to="{ name: 'event-show', params: { id: event.id } }"
   >
     <div class="event-card -shadow">
       <span class="eyebrow">@{{ event.time }} on {{ event.date }}</span>
@@ -13,18 +13,9 @@
 
 <script>
 export default {
-  data: () => ({
-    event: {
-      id: 1,
-      title: 'Beach Cleanup',
-      date: 'Tue Aug 19, 2020',
-      time: '6 AM',
-      attendees: [
-        { id: 'abc123', name: 'Adam Jahr' },
-        { id: 'ab123f', name: 'Andrei Voicu' }
-      ]
-    }
-  })
+  props: {
+    event: Object
+  }
 }
 </script>
 
