@@ -13,12 +13,11 @@ export const mutations = {
     })
   },
   DELETE(state, notificationToRemove) {
-    this.state.notifications = state.notifications.filter(
+    state.notifications = state.notifications.filter(
       notification => notification.id !== notificationToRemove.id
     )
   }
 }
-
 export const actions = {
   add({ commit }, notification) {
     commit('PUSH', notification)
