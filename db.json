@@ -71,6 +71,60 @@
           "name": "Mary Gordon"
         }
       ]
+    },
+    {
+      "id": 9356736,
+      "user": {
+        "id": "abc123",
+        "name": "Andrei Voicu"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Andrei Voicu"
+      },
+      "title": "working?",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "16:00",
+      "attendees": []
+    },
+    {
+      "id": 9674070,
+      "user": {
+        "id": "abc123",
+        "name": "Andrei Voicu"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Andrei Voicu"
+      },
+      "title": "Planting Trees",
+      "description": "We're going to plant trees",
+      "location": "The forest",
+      "date": "2020-08-29T11:57:00.000Z",
+      "time": "9:00",
+      "attendees": []
+    },
+    {
+      "id": 1866170,
+      "user": {
+        "id": "abc123",
+        "name": "Andrei Voicu"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Andrei Voicu"
+      },
+      "title": "plant trees",
+      "description": "We're going to plant some trees",
+      "location": "in the forest",
+      "date": "2020-08-07T11:58:00.000Z",
+      "time": "9:00",
+      "attendees": []
     }
   ]
 }
