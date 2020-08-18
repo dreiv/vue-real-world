@@ -5,7 +5,8 @@ const apiClient = axios.create({
   headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json'
-  }
+  },
+  timeout: 10000 // Throw an error if API call takes longer than 10s
 })
 
 export default {
