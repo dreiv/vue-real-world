@@ -6,6 +6,9 @@ import 'nprogress/nprogress.css'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import DateFilter from './filters/date'
+
+Vue.filter('date', DateFilter)
 
 Vue.config.productionTip = false
 
